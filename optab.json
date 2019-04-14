@@ -1,0 +1,59 @@
+{
+    "DCR": {
+        "partial": true,
+        "argsize": 0,
+        "A": "3D",
+        "B": "05",
+        "C": "0D"
+    },
+    "HLT": {
+        "partial":false,
+        "argsize":0,
+        "mcode":"76"
+    },
+    "JMP": {
+        "partial": false,
+        "argsize": 2,
+        "mcode": "C3"
+    },
+    "JNZ": {
+        "partial": false,
+        "argsize": 2,
+        "mcode" : "C2"
+    },
+    "LDA" : {
+        "partial":false,
+        "argsize":2,
+        "mcode":"3A"
+    },
+    "LDAX": {
+        "partial":true,
+        "argsize":0,
+        "B": "0A",
+        "D": "1A"
+    },
+    "MOV": {
+        "partial": true,
+        "argsize": 0,
+        "A,A" : "7F",
+        "A,B" : "78",
+        "A,C" : "79",
+        "A,D" : "7A",
+        "A,E" : "7B",
+        "A,H" : "7C",
+        "A,L" : "7D",
+        "A,M" : "7E"
+    },
+    "MVI" : {
+        "partial": true,
+        "argsize": 1,
+        "A": "3E",
+        "B": "06",
+        "C": "0E"
+    },
+    "STA": {
+        "partial": false,
+        "argsize": 2,
+        "mcode": "32"
+    }
+}
