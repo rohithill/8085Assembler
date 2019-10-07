@@ -1,40 +1,272 @@
 {
+    "ACI" : {
+        "partial" : false,
+        "argsize" : 1,
+        "mcode" : "CE"
+    },
+    "ADC" : {
+        "partial" : true,
+        "argsize" : 0,
+        "A" : "8F",
+        "B" : "88",
+        "C" : "89",
+        "D" : "8A",
+        "E" : "8B",
+        "H" : "8C",
+        "L" : "8D",
+        "M" : "8E"
+        },
+    "ADD" : {
+        "partial" : true,
+        "argsize" : 0,
+        "A" : "87",
+        "B" : "80",
+        "C" : "81",
+        "D" : "82",
+        "E" : "83",
+        "H" : "84",
+        "L" : "85",
+        "M" : "86"
+    },
+    "ADI" : {
+        "partial" : false,
+        "argsize" : 1,
+        "mcode" : "C6"
+    },
+    "ANA" : {
+        "partial" : true,
+        "argsize" : 0,
+        "A" : "A7",
+        "B" : "A0",
+        "C" : "A1",
+        "D" : "A2",
+        "E" : "A3",
+        "H" : "A4",
+        "L" : "A5",
+        "M" : "A6"
+    },
+    "ANI" : {
+        "partial" : false,
+        "argsize" : 1,
+        "mcode" : "E6"
+    },
+    "CALL" : {
+        "partial" : false,
+        "argsize" : 2,
+        "mcode" : "CD"
+    },
+    "CC" : {
+        "partial" : false,
+        "argsize" : 2,
+        "mcode" : "DC"
+    },
+    "CM" : {
+        "partial" : false,
+        "argsize" : 2,
+        "mcode" : "FC"
+    },
+    "CMA" : {
+        "partial" : false,
+        "argsize" : 0,
+        "mcode" : "2F"
+    },
+    "CMC" : {
+        "partial" : false,
+        "argsize" : 0,
+        "mcode" : "3F"
+    },
+    "CMP" : {
+        "partial" : true,
+        "argsize" : 0,
+        "A" : "BF",
+        "B" : "B8",
+        "C" : "B9",
+        "D" : "BA",
+        "E" : "BB",
+        "H" : "BC",
+        "L" : "BD",
+        "M" : "BD"
+    },
+    "CNC" : {
+        "partial" : false,
+        "argsize" : 2,
+        "mcode" : "D4"
+    },
+    "CNZ" : {
+        "partial" : false,
+        "argsize" : 2,
+        "mcode" : "C4"
+    },
+    "CP" : {
+        "partial" : false,
+        "argsize" : 2,
+        "mcode" : "F4"
+    },
+    "CPE" : {
+        "partial" : false,
+        "argsize" : 2,
+        "mcode" : "EC"
+    },
+    "CPI" : {
+        "partial" : false,
+        "argsize" : 1,
+        "mcode" : "FE"
+    },
+    "CPO" : {
+        "partial" : false,
+        "argsize" : 2,
+        "mcode" : "E4"
+    },
+    "CZ" : {
+        "partial" : false,
+        "argsize" : 2,
+        "mcode" : "CC"
+    },
+    "DAA" : {
+        "partial" : false,
+        "argsize" : 0,
+        "mcode" : "27"
+    },
+    "DAD" : {
+        "partial" : true,
+        "argsize" : 0,
+        "B" : "09",
+        "D" : "19",
+        "H" : "29",
+        "SP" : "39"
+    },
     "DCR": {
-        "partial": true,
-        "argsize": 0,
-        "A": "3D",
-        "B": "05",
-        "C": "0D"
+        "partial" : true,
+        "argsize" : 0,
+        "A" : "3D",
+        "B" : "05",
+        "C" : "0D",
+        "D" : "15",
+        "E" : "1D",
+        "H" : "25",
+        "L" : "2D",
+        "M" : "35"
     },
-    "HLT": {
-        "partial":false,
-        "argsize":0,
-        "mcode":"76"
+    "DCX" : {
+        "partial" : true,
+        "argsize" : 0,
+        "B" : "0B",
+        "D" : "1B",
+        "H" : "2B",
+        "SP" : "3B"
     },
-    "JMP": {
-        "partial": false,
-        "argsize": 2,
-        "mcode": "C3"
+    "DI" : {
+        "partial" : false,
+        "argsize" : 0,
+        "mcode" : "F3"
     },
-    "JNZ": {
-        "partial": false,
-        "argsize": 2,
+    "EI" : {
+        "partial" : false,
+        "argsize" : 0,
+        "mcode" : "FB"
+    },
+    "HLT" : {
+        "partial" : false,
+        "argsize" : 0,
+        "mcode" : "76"
+    },
+    "IN" : {
+        "partial" : false,
+        "argsize" : 1,
+        "mcode" : "DB"
+    },
+    "INR" : {
+        "partial" : true,
+        "argsize" : 0,
+        "A" : "3C",
+        "B" : "04",
+        "C" : "0C",
+        "D" : "14",
+        "E" : "1C",
+        "H" : "24",
+        "L" : "2C",
+        "M" : "34"
+        },
+    "INX" : {
+        "partial" : true,
+        "argsize" : 0,
+        "B" : "03",
+        "D" : "13",
+        "H" : "23",
+        "SP" : "33"
+    },
+    "JC" : {
+        "partial" : false,
+        "argsize" : 2,
+        "mcode" : "DA"
+    },
+    "JM" : {
+        "partial" : false,
+        "argsize" : 2,
+        "mcode" : "FA"
+    },
+    "JMP" : {
+        "partial" : false,
+        "argsize" : 2,
+        "mcode" : "C3"
+    },
+    "JNC" : {
+        "partial" : false,
+        "argsize" : 2,
+        "mcode" : "D2"
+    },
+    "JNZ" : {
+        "partial" : false,
+        "argsize" : 2,
         "mcode" : "C2"
     },
+    "JP" : {
+        "partial" : false,
+        "argsize" : 2,
+        "mcode" : "F2"
+    },
+    "JPE" : {
+        "partial" : false,
+        "argsize" : 2,
+        "mcode" : "EA"
+    },
+    "JPO" : {
+        "partial" : false,
+        "argsize" : 2,
+        "mcode" : "E2"
+    },
+    "JZ" : {
+        "partial" : false,
+        "argsize" : 2,
+        "mcode" : "CA"
+    },
     "LDA" : {
-        "partial":false,
-        "argsize":2,
-        "mcode":"3A"
+        "partial" : false,
+        "argsize" : 2,
+        "mcode" : "3A"
     },
-    "LDAX": {
-        "partial":true,
-        "argsize":0,
-        "B": "0A",
-        "D": "1A"
+    "LDAX" : {
+        "partial" : true,
+        "argsize" : 0,
+        "B" : "0A",
+        "D" : "1A"
     },
-    "MOV": {
-        "partial": true,
-        "argsize": 0,
+    "LHLD" : {
+        "partial" : false,
+        "argsize" : 2,
+        "mcode" : "2A"
+    },
+    "LXI" : {
+        "partial" : true,
+        "argsize" : 2,
+        "B" : "01",
+        "D" : "11",
+        "H" : "21",
+        "SP" : "31"
+    },
+    "MOV" : {
+        "partial" : true,
+        "argsize" : 0,
         "A,A" : "7F",
         "A,B" : "78",
         "A,C" : "79",
@@ -42,18 +274,295 @@
         "A,E" : "7B",
         "A,H" : "7C",
         "A,L" : "7D",
-        "A,M" : "7E"
+        "A,M" : "7E",
+        "B,A" : "47",
+        "B,B" : "40",
+        "B,C" : "41",
+        "B,D" : "42",
+        "B,E" : "43",
+        "B,H" : "44",
+        "B,L" : "45",
+        "B,M" : "46",
+        "C,A" : "4F",
+        "C,B" : "48",
+        "C,C" : "49",
+        "C,D" : "4A",
+        "C,E" : "4B",
+        "C,H" : "4C",
+        "C,L" : "4D",
+        "C,M" : "4E",
+        "D,A" : "57",
+        "D,B" : "50",
+        "D,C" : "51",
+        "D,D" : "52",
+        "D,E" : "53",
+        "D,H" : "54",
+        "D,L" : "55",
+        "D,M" : "56",
+        "E,A" : "5F",
+        "E,B" : "58",
+        "E,C" : "59",
+        "E,D" : "5A",
+        "E,E" : "5B",
+        "E,H" : "5C",
+        "E,L" : "5D",
+        "E,M" : "5E",
+        "H,A" : "67",
+        "H,B" : "60",
+        "H,C" : "61",
+        "H,D" : "62",
+        "H,E" : "63",
+        "H,H" : "64",
+        "H,L" : "65",
+        "H,M" : "66",
+        "L,A" : "6F",
+        "L,B" : "68",
+        "L,C" : "69",
+        "L,D" : "6A",
+        "L,E" : "6B",
+        "L,H" : "6C",
+        "L,L" : "6D",
+        "L,M" : "6E",
+        "M,A" : "77",
+        "M,B" : "70",
+        "M,C" : "71",
+        "M,D" : "72",
+        "M,E" : "73",
+        "M,H" : "74",
+        "M,L" : "75"
     },
     "MVI" : {
-        "partial": true,
-        "argsize": 1,
-        "A": "3E",
-        "B": "06",
-        "C": "0E"
+        "partial" : true,
+        "argsize" : 1,
+        "A" : "3E",
+        "B" : "06",
+        "C" : "0E",
+        "D" : "16",
+        "E" : "1E",
+        "H" : "26",
+        "L" : "2E",
+        "M" : "36"
     },
-    "STA": {
-        "partial": false,
-        "argsize": 2,
-        "mcode": "32"
+    "NOP" : {
+        "partial" : false,
+        "argsize" : 0,
+        "mcode" : "00"
+    },
+    "ORA" : {
+        "partial" : true,
+        "argsize" : 0,
+        "A" : "B7",
+        "B" : "B0",
+        "C" : "B1",
+        "D" : "B2",
+        "E" : "B3",
+        "H" : "B4",
+        "L" : "B5",
+        "M" : "B6"
+    },
+    "ORI" : {
+        "partial" : false,
+        "argsize" : 1,
+        "mcode" : "F6"
+    },
+    "OUT" : {
+        "partial" : false,
+        "argsize" : 1,
+        "mcode" : "D3"
+    },
+    "PCHL" : {
+        "partial" : false,
+        "argsize" : 0,
+        "mcode" : "E9"
+    },
+    "POP" : {
+        "partial" : true,
+        "argsize" : 0,
+        "B" : "C1",
+        "D" : "D1",
+        "H" : "E1",
+        "PSW" : "F1"
+    },
+    "PUSH" : {
+        "partial" : true,
+        "argsize" : 0,
+        "B" : "C5",
+        "D" : "D5",
+        "H" : "E5",
+        "PSW" : "F5"
+    },
+    "RAL" : {
+        "partial" : false,
+        "argsize" : 0,
+        "mcode" : "17"
+    },
+    "RAR" : {
+        "partial" : false,
+        "argsize" : 0,
+        "mcode" : "1F"
+    },
+    "RC" : {
+        "partial" : false,
+        "argsize" : 0,
+        "mcode" : "D8"
+    },
+    "RET" : {
+        "partial" : false,
+        "argsize" : 0,
+        "mcode" : "C9"
+    },
+    "RIM" : {
+        "partial" : false,
+        "argsize" : 0,
+        "mcode" : "20"
+    },
+    "RLC" : {
+        "partial" : false,
+        "argsize" : 0,
+        "mcode" : "07"
+    },
+    "RM" : {
+        "partial" : false,
+        "argsize" : 0,
+        "mcode" : "F8"
+    },
+    "RNC" : {
+        "partial" : false,
+        "argsize" : 0,
+        "mcode" : "D0"
+    },
+    "RNZ" : {
+        "partial" : false,
+        "argsize" : 0,
+        "mcode" : "C0"
+    },
+    "RP" : {
+        "partial" : false,
+        "argsize" : 0,
+        "mcode" : "F0"
+    },
+    "RPE" : {
+        "partial" : false,
+        "argsize" : 0,
+        "mcode" : "E8"
+    },
+    "RPO" : {
+        "partial" : false,
+        "argsize" : 0,
+        "mcode" : "E0"
+    },
+    "RRC" : {
+        "partial" : false,
+        "argsize" : 0,
+        "mcode" : "0F"
+    },
+    "RST" : {
+        "partial" : true,
+        "argsize" : 0,
+        "0" : "C7",
+        "1" : "CF",
+        "2" : "D7",
+        "3" : "DF",
+        "4" : "E7",
+        "5" : "EF",
+        "6" : "F7",
+        "7" : "FF"
+    },
+    "RZ" : {
+        "partial" : false,
+        "argsize" : 0,
+        "mcode" : "C8"
+    },
+    "SBB" : {
+        "partial" : true,
+        "argsize" : 0,
+        "A" : "9F",
+        "B" : "98",
+        "C" : "99",
+        "D" : "9A",
+        "E" : "9B",
+        "H" : "9C",
+        "L" : "9D",
+        "M" : "9E"
+    },
+    "SBI" : {
+        "partial" : false,
+        "argsize" : 1,
+        "mcode" : "DE"
+    },
+    "SHLD" : {
+        "partial" : false,
+        "argsize" : 2,
+        "mcode" : "22"
+    },
+    "SIM" : {
+        "partial" : false,
+        "argsize" : 0,
+        "mcode" : "30"
+    },
+    "SPHL" : {
+        "partial" : false,
+        "argsize" : 0,
+        "mcode" : "F9"
+    },
+    "STA" : {
+        "partial" : false,
+        "argsize" : 2,
+        "mcode" : "32"
+    },
+    "STAX" : {
+        "partial" : true,
+        "argsize" : 0,
+        "B" : "02",
+        "D" : "12"
+    },
+    "STC" : {
+        "partial" : false,
+        "argsize" : 0,
+        "mcode" : "37"
+    },
+    "SUB" : {
+        "partial" : true,
+        "argsize" : 0,
+        "A" : "97",
+        "B" : "90",
+        "C" : "91",
+        "D" : "92",
+        "E" : "93",
+        "H" : "94",
+        "L" : "95",
+        "M" : "96"
+    },
+    "SUI" : {
+        "partial" : false,
+        "argsize" : 1,
+        "mcode" : "D6"
+    },
+    "XCHG" : {
+        "partial" : false,
+        "argsize" : 0,
+        "mcode" : "EB"
+    },
+    "XRA" : {
+        "partial" : true,
+        "argsize" : 0,
+        "A" : "AF",
+        "B" : "A8",
+        "C" : "A9",
+        "D" : "AA",
+        "E" : "AB",
+        "H" : "AC",
+        "L" : "AD",
+        "M" : "AE"
+    },
+    "XRI" : {
+        "partial" : false,
+        "argsize" : 1,
+        "mcode" : "EE"
+    },
+    "XTHL" : {
+        "partial" : false,
+        "argsize" : 0,
+        "mcode" : "E3"
     }
 }
